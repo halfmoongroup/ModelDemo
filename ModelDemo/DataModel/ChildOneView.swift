@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct ChildOne: View {
-    @StateObject var model = DataModel()
-    
+struct ChildOneView: View {
     var body: some View {
         VStack {
-            Text("Child One")
-            ChildAAA()
+            Text("Child One View")
+            ChildOneA()
+                .border(.green)
+                .padding(5)
         }
         .padding(5)
         .border(.black)
@@ -22,9 +22,10 @@ struct ChildOne: View {
 }
 
 
-struct ChildOne__Previews: PreviewProvider {
+struct ChildOneView__Previews: PreviewProvider {
     static var previews: some View {
-        ChildOne()
+        ChildOneView()
             .environmentObject(DataModel())
     }
 }
+

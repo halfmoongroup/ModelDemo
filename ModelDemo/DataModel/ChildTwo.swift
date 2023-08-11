@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ChildTwo: View {
     @EnvironmentObject var model : DataModel
-    @State private var celsius: Float = 0.0
     var body: some View {
         VStack {
             Text("Child Two")
@@ -17,6 +16,7 @@ struct ChildTwo: View {
             Slider(value: $model.celsius, in: -100...100)
                 .padding([.leading, .trailing], 10)
             Text("\(model.celsius, specifier: "%.1f") Celsius is \(model.fahrenheit, specifier: "%.1f") Fahrenheit")
+            SubView(info: $model.celsius)
             Button("Reset") {
                 model.reset()
             }
@@ -36,3 +36,4 @@ struct ChildTwo_Previews: PreviewProvider {
             .environmentObject(DataModel())
     }
 }
+

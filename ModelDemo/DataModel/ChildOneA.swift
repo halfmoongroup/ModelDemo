@@ -7,19 +7,20 @@
 
 import SwiftUI
 
-struct ChildAAA: View {
+struct ChildOneA: View {
     var body: some View {
         VStack {
-            Text("Child AAA")
+            Text("Child DM 1-A")
             ChildTwo()
                 .padding([.bottom],10)
         }
     }
 }
 
-struct ChildAAA_Previews: PreviewProvider {
+struct ChildOneA_Previews: PreviewProvider {
     static var previews: some View {
-        ChildAAA()
+        ChildOneA()
             .environmentObject(DataModel())
     }
 }
+

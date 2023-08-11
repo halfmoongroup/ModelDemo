@@ -11,10 +11,16 @@
 		F396F8042A7A89DB009740A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F396F8032A7A89DB009740A8 /* ContentView.swift */; };
 		F396F8062A7A89DC009740A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F396F8052A7A89DC009740A8 /* Assets.xcassets */; };
 		F396F8092A7A89DC009740A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F396F8082A7A89DC009740A8 /* Preview Assets.xcassets */; };
-		F396F8102A7A8A8B009740A8 /* ChildOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F396F80F2A7A8A8B009740A8 /* ChildOne.swift */; };
+		F396F8102A7A8A8B009740A8 /* ChildOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F396F80F2A7A8A8B009740A8 /* ChildOneView.swift */; };
 		F396F8122A7A8AA2009740A8 /* ChildTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F396F8112A7A8AA2009740A8 /* ChildTwo.swift */; };
-		F396F8142A7A8ABA009740A8 /* ChildAAA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F396F8132A7A8ABA009740A8 /* ChildAAA.swift */; };
+		F396F8142A7A8ABA009740A8 /* ChildOneA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F396F8132A7A8ABA009740A8 /* ChildOneA.swift */; };
 		F396F8162A7A8B33009740A8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F396F8152A7A8B33009740A8 /* DataModel.swift */; };
+		F3C5960E2A7B1F7600E80B18 /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C5960D2A7B1F7600E80B18 /* SubView.swift */; };
+		F3C596262A8649A000E80B18 /* DataModelTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C596252A8649A000E80B18 /* DataModelTopView.swift */; };
+		F3C596282A864B3B00E80B18 /* BindingTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C596272A864B3B00E80B18 /* BindingTopView.swift */; };
+		F3C5962B2A864D2E00E80B18 /* BindingChildOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C5962A2A864D2E00E80B18 /* BindingChildOneView.swift */; };
+		F3C5962D2A864D7400E80B18 /* BindingChildTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C5962C2A864D7400E80B18 /* BindingChildTwo.swift */; };
+		F3C5962F2A864D8800E80B18 /* BindingChildOneA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C5962E2A864D8800E80B18 /* BindingChildOneA.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,10 +29,16 @@
 		F396F8032A7A89DB009740A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F396F8052A7A89DC009740A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F396F8082A7A89DC009740A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F396F80F2A7A8A8B009740A8 /* ChildOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildOne.swift; sourceTree = "<group>"; };
+		F396F80F2A7A8A8B009740A8 /* ChildOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildOneView.swift; sourceTree = "<group>"; };
 		F396F8112A7A8AA2009740A8 /* ChildTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildTwo.swift; sourceTree = "<group>"; };
-		F396F8132A7A8ABA009740A8 /* ChildAAA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildAAA.swift; sourceTree = "<group>"; };
+		F396F8132A7A8ABA009740A8 /* ChildOneA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildOneA.swift; sourceTree = "<group>"; };
 		F396F8152A7A8B33009740A8 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		F3C5960D2A7B1F7600E80B18 /* SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
+		F3C596252A8649A000E80B18 /* DataModelTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelTopView.swift; sourceTree = "<group>"; };
+		F3C596272A864B3B00E80B18 /* BindingTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTopView.swift; sourceTree = "<group>"; };
+		F3C5962A2A864D2E00E80B18 /* BindingChildOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChildOneView.swift; sourceTree = "<group>"; };
+		F3C5962C2A864D7400E80B18 /* BindingChildTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChildTwo.swift; sourceTree = "<group>"; };
+		F3C5962E2A864D8800E80B18 /* BindingChildOneA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChildOneA.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +73,14 @@
 			children = (
 				F396F8012A7A89DB009740A8 /* ModelDemoApp.swift */,
 				F396F8032A7A89DB009740A8 /* ContentView.swift */,
-				F396F80F2A7A8A8B009740A8 /* ChildOne.swift */,
-				F396F8112A7A8AA2009740A8 /* ChildTwo.swift */,
-				F396F8132A7A8ABA009740A8 /* ChildAAA.swift */,
+				F3C596252A8649A000E80B18 /* DataModelTopView.swift */,
+				F3C596272A864B3B00E80B18 /* BindingTopView.swift */,
+				F3C596242A86488400E80B18 /* DataModel */,
+				F3C596292A864CDE00E80B18 /* Binding */,
 				F396F8052A7A89DC009740A8 /* Assets.xcassets */,
 				F396F8072A7A89DC009740A8 /* Preview Content */,
 				F396F8152A7A8B33009740A8 /* DataModel.swift */,
+				F3C5960D2A7B1F7600E80B18 /* SubView.swift */,
 			);
 			path = ModelDemo;
 			sourceTree = "<group>";
@@ -77,6 +91,26 @@
 				F396F8082A7A89DC009740A8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3C596242A86488400E80B18 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				F396F80F2A7A8A8B009740A8 /* ChildOneView.swift */,
+				F396F8132A7A8ABA009740A8 /* ChildOneA.swift */,
+				F396F8112A7A8AA2009740A8 /* ChildTwo.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		F3C596292A864CDE00E80B18 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				F3C5962A2A864D2E00E80B18 /* BindingChildOneView.swift */,
+				F3C5962E2A864D8800E80B18 /* BindingChildOneA.swift */,
+				F3C5962C2A864D7400E80B18 /* BindingChildTwo.swift */,
+			);
+			path = Binding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,10 +184,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F396F8042A7A89DB009740A8 /* ContentView.swift in Sources */,
-				F396F8142A7A8ABA009740A8 /* ChildAAA.swift in Sources */,
+				F3C5962F2A864D8800E80B18 /* BindingChildOneA.swift in Sources */,
+				F3C596282A864B3B00E80B18 /* BindingTopView.swift in Sources */,
+				F396F8142A7A8ABA009740A8 /* ChildOneA.swift in Sources */,
+				F3C596262A8649A000E80B18 /* DataModelTopView.swift in Sources */,
 				F396F8022A7A89DB009740A8 /* ModelDemoApp.swift in Sources */,
-				F396F8102A7A8A8B009740A8 /* ChildOne.swift in Sources */,
+				F396F8102A7A8A8B009740A8 /* ChildOneView.swift in Sources */,
+				F3C5962D2A864D7400E80B18 /* BindingChildTwo.swift in Sources */,
+				F3C5962B2A864D2E00E80B18 /* BindingChildOneView.swift in Sources */,
 				F396F8122A7A8AA2009740A8 /* ChildTwo.swift in Sources */,
+				F3C5960E2A7B1F7600E80B18 /* SubView.swift in Sources */,
 				F396F8162A7A8B33009740A8 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
